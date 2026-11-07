@@ -67,4 +67,4 @@ skills/
 
 ## License
 
-Add a license before publishing.
+MIT License (c) 2026 rockberpro-labs
