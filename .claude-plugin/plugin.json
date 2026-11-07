@@ -1,0 +1,11 @@
+{
+  "name": "terminal-demo",
+  "description": "Generate reproducible animated SVG demos of terminal sessions (asciinema + svg-term-cli) for READMEs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "rockberpro"
+  },
+  "homepage": "https://github.com/rockberpro-labs/terminal-demo",
+  "repository": "https://github.com/rockberpro-labs/terminal-demo",
+  "keywords": ["terminal", "demo", "svg", "asciinema", "readme"]
+}

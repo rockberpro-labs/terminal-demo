@@ -1,0 +1,13 @@
+{
+  "name": "rockberpro-labs",
+  "owner": {
+    "name": "rockberpro"
+  },
+  "plugins": [
+    {
+      "name": "terminal-demo",
+      "source": "./",
+      "description": "Generate reproducible animated SVG demos of terminal sessions (asciinema + svg-term-cli) for READMEs."
+    }
+  ]
+}
