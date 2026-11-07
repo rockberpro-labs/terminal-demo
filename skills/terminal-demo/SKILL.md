@@ -1,5 +1,5 @@
 ---
-name: terminal-demo-svg
+name: terminal-demo
 description: Generate a reproducible animated SVG demo of a terminal session (asciinema + svg-term-cli via bunx or npx) for a README. Use when the user wants a demo gif/svg of CLI usage, shell aliases or git workflows, "gravar demo do terminal", or to regenerate an existing demo.
 ---
 

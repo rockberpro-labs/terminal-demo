@@ -35,7 +35,7 @@ Ask Claude for a demo, for example:
 - "Record a demo of my git aliases for the README"
 - "Regenerate the terminal demo"
 
-The skill is `terminal-demo-svg` (namespaced as `/terminal-demo:terminal-demo-svg`). It will:
+The skill is `terminal-demo` (namespaced as `/terminal-demo:terminal-demo`). It will:
 
 1. Build a sandbox outside your project, with a local bare repo as `origin` if the demo pushes.
 2. Isolate git config so your identity, hooks and system config stay out of the recording.
@@ -43,7 +43,7 @@ The skill is `terminal-demo-svg` (namespaced as `/terminal-demo:terminal-demo-sv
 4. Record with `asciinema`, sanitize the cast, and convert it to SVG.
 5. Add the `<img>` to your README.
 
-See [`skills/terminal-demo-svg/SKILL.md`](skills/terminal-demo-svg/SKILL.md) for the full pipeline and gotchas.
+See [`skills/terminal-demo/SKILL.md`](skills/terminal-demo/SKILL.md) for the full pipeline and gotchas.
 
 ## Manual install (without the plugin system)
 
@@ -51,7 +51,7 @@ Copy the skill folder:
 
 ```bash
 git clone https://github.com/rockberpro-labs/terminal-demo
-cp -r terminal-demo/skills/terminal-demo-svg ~/.claude/skills/
+cp -r terminal-demo/skills/terminal-demo ~/.claude/skills/
 ```
 
 ## Layout
@@ -61,7 +61,7 @@ cp -r terminal-demo/skills/terminal-demo-svg ~/.claude/skills/
   plugin.json         # plugin manifest
   marketplace.json    # makes this repo installable as a marketplace
 skills/
-  terminal-demo-svg/
+  terminal-demo/
     SKILL.md
 ```
 
