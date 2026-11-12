@@ -5,7 +5,7 @@ description: Generate a reproducible animated SVG demo of a terminal session (as
 
 # Terminal demo → animated SVG
 
-Scripted (not live) recording: a sandbox repo, a player that fakes typing, `asciinema rec`, then `svg-term-cli`. Reference implementation: `resources/demo/` in rockberpro-dev/git-lga (`record.sh`, `play.sh`, `script.txt`), output `resources/img/demo.svg`.
+Scripted (not live) recording: a sandbox repo, a player that fakes typing, `asciinema rec`, then `svg-term-cli`. Reference implementation: `resources/demo/` in rockberpro-labs/git-lga (`record.sh`, `play.sh`, `script.txt`), output `resources/img/demo.svg`.
 
 ## Prerequisites (check first)
 Run `command -v asciinema && asciinema --version` and `command -v bunx || command -v npx` before anything else. If `asciinema` is missing (or older than 2.4.0), **stop and warn the user** that it is a required dependency this skill cannot work without, give install options (`sudo apt install asciinema`, `brew install asciinema`, `pipx install asciinema`) and do not continue until it is installed. Pick the runner once: `bunx` if present, otherwise `npx -y`. If neither exists, stop and ask the user to install bun or Node.js. Use the chosen runner wherever this skill says `bunx`.
